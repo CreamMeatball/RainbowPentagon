@@ -18,7 +18,20 @@
 
 ## 실행 방법 for Mac
 https://drive.google.com/file/d/1gm0QI_uyoaeVZUvll2aH_FJV9Kj8kaFK/view?usp=drive_link  
-위 파일 다운로드 및 실행
+위 파일 다운로드 및 실행  
+
+또는  
+
+```bash
+git clone https://github.com/yourusername/RainbowPentagon.git
+cd RainbowPentagon
+```
+이후 terminal 에서  
+```bash
+python3 -m http.server 8080
+# 이후 웹 브라우저에서 localhost:8080 으로 접속
+```
+
 
 ## 설치 및 실행 방법 for Developer
 
@@ -26,7 +39,7 @@ https://drive.google.com/file/d/1gm0QI_uyoaeVZUvll2aH_FJV9Kj8kaFK/view?usp=drive
 
 ```bash
 git clone https://github.com/yourusername/RainbowPentagon.git
-cd rainbow-pentagon
+cd RainbowPentagon
 ```
 
 ### 2. 의존성 설치
