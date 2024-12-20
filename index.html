@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>Rainbow Pentagon!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <h1>Rainbow Pentagon Board Game</h1> -->
+
+    <!-- SVG 보드판 -->
+    <div id="board-container">
+        <svg id="board" width="800" height="800"></svg>
+    </div>
+    
+    <div id="color-picker">
+        <label for="color-select">색상 선택:</label>
+        <select id="color-select">
+            <option value="red" selected>Red</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="white">White</option> <!-- 하얀색 추가 -->
+        </select>
+    </div>
+
+    <button id="save-log-button">이미지 저장</button>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

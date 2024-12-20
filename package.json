@@ -1,0 +1,21 @@
+{
+  "name": "rainbowpentagon",
+  "version": "1.0.0",
+  "description": "Rainbow Pentagon is a board game made by Cheolhyeon, Sanghyeon in 'The Brainy', the genius game club",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "boardgame",
+    "rainbow",
+    "pentagon",
+    "pentagon consist of polygon"
+  ],
+  "author": "CreamMeatball",
+  "license": "TheBrainy",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-packager": "^17.1.2"
+  }
+}

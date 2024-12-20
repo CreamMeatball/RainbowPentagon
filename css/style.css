@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center; /* body 내의 모든 요소를 가운데 정렬 */
+}
+
+#board-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#inputs {
+    margin-bottom: 20px;
+}
+
+.player-inputs label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#log-container {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.colored-cell {
+    stroke: #000;
+    stroke-width: 0.5;
+}
+
+#color-picker {
+    margin-bottom: 1rem;
+    text-align: center; /* 색상 선택 부분 가운데 정렬 */
+}
+
+#color-select {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.2s ease-in-out;
+}
+#color-select:hover {
+    border-color: #999;
+}
+
+#save-log-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto; /* 이미지 저장 버튼 가운데 정렬 */
+}
+#save-log-button:hover {
+    background-color: #0056b3;
+}
